@@ -1,0 +1,81 @@
+.list-group{
+    --bs-list-group-bg:black !important;
+}
+
+.fa-brands.fa-facebook:hover {
+    color: blue !important;
+}
+
+.fa-brands.fa-instagram:hover {
+    color: rgb(255, 0, 208) !important;
+}
+
+.fa-brands.fa-github:hover {
+    color: rgb(0, 255, 76) !important;
+}
+
+.fa-solid.fa-user-lock:hover {
+    color: rgb(202, 29, 29) !important;
+}
+
+.banner{
+    background-image: url(../img/pexels-felix-mittermeier-956981.jpg);
+    height: 30vh
+}
+
+.foto-perfil{
+    margin-top: 180px;
+    margin-left: 100px;
+}
+
+.nombre{
+    padding-top: 9rem;
+}
+
+.text-center{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.sobre-mi{
+    grid-column: 2/4;
+}
+
+.experiencia{
+    padding-top: 100px;
+}
+
+.experiencia1.text-center{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.experiencia2{
+    grid-column: 2/4;
+}
+
+.educacion{
+    padding-top: 100px;
+}
+
+.eduacion1.text-center{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.eduacion3{
+    grid-column: 2/4;
+}
+
+.porcentajes{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.progress{
+    grid-column: 2/4;
+}
+
+.d-flex.justify-content-center.algo{
+    padding-top: 100px;
+}
